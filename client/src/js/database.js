@@ -8,7 +8,7 @@ const initdb = async () =>
         return;
       }
       db.createObjectStore('jate', { keyPath: 'id', autoIncrement: true });
-      console.log('jate database created');
+     
     },
   });
 
@@ -19,7 +19,6 @@ export const putDb = async (content) => {
   const store = tx.objectStore('jate');
   const request = store.put({ id: 1, value: content });
   const result = await request;
-console.error('putDb not implemented');
 };
 
 
@@ -30,7 +29,6 @@ export const getDb = async () => {
   const store = tx.objectStore('jate');
   const request = store.getAll();
   const result = await request;
-  console.error('getDb not implemented');
   return result.value;
 };
 
