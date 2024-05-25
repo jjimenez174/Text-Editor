@@ -29,10 +29,10 @@ module.exports = () => {
     // manifest.json file
       new WebpackPwaManifest({
         finderprints: false,
-        inject:true,
+        inject: true,
         name: 'Text Editor',
         short_name: 'Text',
-        description: 'write notes',
+        description: 'write notes with or without an internet connection',
         background_color: '#225ca3',
         theme_color: '#225ca3',
         start_url: '/',
@@ -40,7 +40,7 @@ module.exports = () => {
         icons: [
           {
             src: path.resolve('src/images/logo.png'),
-            size: [96, 128, 192, 256, 384, 512],
+            sizes: [96, 128, 192, 256, 384, 512],
             destination: path.join('assets', 'icons'),
           },
         ],
@@ -56,14 +56,12 @@ module: {
     {
       test: /\.m?js$/,
       exclude: /node_modules/,
+      // We use babel-loader in order to use ES6.
       use: {
         loader: 'babel-loader',
         options: {
           presets: ['@babel/preset-env'],
-          plugins: [
-            '@babel/plugin-proposal-object-rest-spread',
-            '@babel/transform-runtime',
-          ],
+          plugins: ['@babel/plugin-proposal-object-rest-spread', '@babel/transform-runtime'],
         },
       },
     },
