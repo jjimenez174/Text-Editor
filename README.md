@@ -1,7 +1,7 @@
 # Text-Editor
 
 ## Description
-
+J.A.T.E is a web text editor where the user can create notes with or without internet connection. 
 
 [Link to Demo]()
 
@@ -32,6 +32,4 @@ Contact me at: [jjimenez174](https://github.com/jjimenez174)
 
 ## Deploy Application
 
-[heroku]()
-
-[Link](https://text-editor-ift1.onrender.com/)
+[Render](https://text-editor-ift1.onrender.com/)
