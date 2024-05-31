@@ -7,11 +7,10 @@ J.A.T.E is a web text editor where the user can create notes with or without int
 
 ## Table of Content
 [Installation](#installation)  
-[Usage](#usage)  
-[Contribution](#contribution)  
-[Test](#test)  
-[Questions](#questions) 
-
+[License](#license)  
+[Questions](#questions)  
+[Application](#deploy-application)  
+ 
 ## Installation
 * Clone the repositoy
 * Open the file in VS code or any source code editor
