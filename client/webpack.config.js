@@ -28,7 +28,7 @@ module.exports = () => {
       }),
     // manifest.json file
       new WebpackPwaManifest({
-        finderprints: false,
+        fingerprints: false,
         inject: true,
         name: 'Text Editor',
         short_name: 'Text',
