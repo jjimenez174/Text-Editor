@@ -3,7 +3,7 @@
 ## Description
 J.A.T.E is a web text editor where the user can create notes with or without internet connection. 
 
-![image](./client/dist/assets/Screenshot.png)
+![image](./client/src/images/Screenshot.png)
 
 ## Table of Content
 [Installation](#installation)  
